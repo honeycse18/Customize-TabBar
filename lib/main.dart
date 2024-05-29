@@ -1,4 +1,4 @@
-import 'package:customize_tab_bar/my_homepage.dart';
+import 'package:customize_tab_bar/my_wallet_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Customize TabBar',
-      home: MyHomePage(),
+      home: MyWalletScreen(),
     );
   }
 }
